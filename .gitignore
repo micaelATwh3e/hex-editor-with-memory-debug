@@ -1,0 +1,191 @@
+# Hex Editor with Memory Debug - .gitignore
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Old/Backup Files
+old/
+backup/
+*_backup.*
+*_old.*
+*.bak
+*.tmp
+
+# Test and Development Files
+test_*.py
+*_test.py
+debug_*.py
+temp_*.py
+test_data.*
+test_memory_process.py
+
+# Compiled Executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Binary Files (except examples)
+*.bin
+*.dat
+*.dump
+*.raw
+!example.bin
+!sample.dat
+
+# Logs and Debug Output
+*.log
+debug.txt
+memory_dump.*
+crash_dump.*
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Project-specific ignores
+# Memory dumps and process snapshots
+memory_snapshot_*
+process_dump_*
+*.memdump
+
+# Temporary process files
+pid_*.txt
+process_*.log
+
+# Development and testing executables
+notepad.exe
+calc.exe
+test.exe
+
+# Configuration files with sensitive data
+config_local.py
+settings_local.py
+secrets.py
+
+# Documentation build
+docs/_build/
+docs/build/
+*.pdf
+
+# Windows specific
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS specific
+.AppleDouble
+.LSOverride
+Icon
+
+# Linux specific
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*

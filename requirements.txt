@@ -1,0 +1,8 @@
+# Hex Editor with Memory Debug - Dependencies
+
+# Process and system information
+psutil>=5.8.0
+
+# GUI framework (tkinter) - included with Python standard library
+# Windows API access (ctypes) - included with Python standard library
+# Threading and datetime - included with Python standard library

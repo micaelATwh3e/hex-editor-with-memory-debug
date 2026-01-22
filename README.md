@@ -1,3 +1,4 @@
+![Visitors](https://stats.wh3e.se/badge/micaelATwh3e/hex-editor-with-memory-debug)
 # Hex Editor with Memory Debugging
 
 A powerful hex editor with real-time process memory monitoring and debugging capabilities for Windows.
